@@ -46,7 +46,7 @@
 export default {
   methods: {
     goToBooking() {
-      this.$router.push("/booking");
+      this.$router.push("#/booking");
     },
   },
 };
