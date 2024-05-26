@@ -8,7 +8,7 @@
         <img :src="require(`../assets/moto.png`)" alt="moto" />
       </div>
       <div class="link">
-        <a href="/">Inicio</a>
+        <a href="/#">Inicio</a>
       </div>
     </header>
 
