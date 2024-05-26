@@ -3,7 +3,7 @@ import HomeView from "@/views/HomeView.vue";
 import BookingView from "@/views/BookingView.vue";
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory("#"),
   routes: [
     { path: "/", name: "home", component: HomeView },
     { path: "/booking", name: "booking", component: BookingView },
